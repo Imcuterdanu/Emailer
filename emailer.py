@@ -29,11 +29,14 @@ toElem = browser.find_element_by_id(':8w')
 toElem.click()
 toElem.send_keys(userRecipent)
 
-subjectElem = browser.find_element_by_id(':8h')
+subjectElem = browser.find_element_by_id(':8i')
 subjectElem.click()
 
-messageElem = browser.find_element_by_id(':9j')
+subjectElem.send_keys(subject)
+subject = ('subject')
+
+messageElem = browser.find_element_by_id(':9o')
 messageElem.click()
 
-sendElem = browser.find_element_by_id(':87')
-sendElem.click()
+subjectElem.send_keys(message)
+message = ('PYTHON IS SO ANNOYING')
